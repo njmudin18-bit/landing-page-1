@@ -1,0 +1,564 @@
+/* IMAGE CUSTOMERS */
+/* * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+} */
+
+.overlay {
+  position: absolute;
+  background: rgb(0 45 91 / 55%);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_2 {
+  inset: auto;
+}
+
+#customers_ku.thumbnails {
+  overflow: hidden;
+}
+
+#customers_ku.thumbnails li {
+  margin: 10px 10px 10px;
+  float: left;
+  width: 22.5%;
+  position: relative;
+  padding: 1px;
+  min-height: 120px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+
+  transition: transform .5s, filter .5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+#customers_ku.thumbnails li:hover {
+  /* border: 2px solid #e87722; */
+  filter: grayscale(0);
+  transform: scale(1);
+}
+
+#customers_ku.thumbnails li img {
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  max-height: fit-content;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+/* IMAGE CUSTOMERS END */
+
+.modal-dialog-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+#customers_gue.thumbnails {
+  overflow: hidden;
+  margin-top: 180px;
+}
+
+#customers_gue.thumbnails li {
+  margin: 10px 10px 10px;
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 1px;
+  min-height: 120px;
+  background-color: #fff;
+  border: 1px solid #e87722;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+
+  transition: transform .5s, filter .5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+#customers_gue.thumbnails li:hover {
+  filter: grayscale(0);
+  transform: scale(1);
+}
+
+#customers_gue.thumbnails li img {
+  max-width: 45%;
+  display: block;
+  position: absolute;
+  max-height: fit-content;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+/* BUTTON CIRCLE WITH HOVER ANIMATION */
+.spin {
+  padding: 0;
+  width: 12em;
+  height: 12em;
+  cursor: pointer;
+}
+
+.spin:hover {
+  color: #716969;
+}
+
+.spin::before,
+.spin::after {
+  left: 0;
+  top: 0;
+}
+
+.spin::before {
+  border: 4px solid transparent;
+}
+
+.spin:hover::before {
+  border-top-color: #e87722;
+  border-bottom-color: #e87722;
+  border-right-color: #e87722;
+  transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+
+.spin::after {
+  border: 0 solid transparent;
+}
+
+.spin:hover::after {
+  transform: rotate(270deg);
+  border-top: 4px solid #e87722;
+  border-right-width: 4px;
+  border-left-width: 4px;
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+}
+
+.circle {
+  box-shadow: none;
+  border-radius: 100%;
+}
+
+.circle::before,
+.circle::after {
+  border-radius: 100%;
+}
+
+.center:hover {
+  color: #fc1a02;
+}
+
+.center::before,
+.center::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+}
+
+.center::before {
+  border-top: 2px solid #fc1a02;
+  border-bottom: 2px solid #fc1a02;
+  transform: scale3d(0, 1, 1);
+}
+
+.center::after {
+  border-left: 2px solid #fc1a02;
+  border-right: 2px solid #fc1a02;
+  transform: scale3d(1, 0, 1);
+}
+
+.center:hover::before,
+.center:hover::after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 0.5s;
+}
+
+button#specials.pc {
+  background-position: left;
+}
+
+button#specials.wr {
+  background-position: right;
+}
+
+button#specials {
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  color: #fff;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 2em 2em;
+  vertical-align: middle;
+}
+
+button#specials::before,
+button#specials::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  box-sizing: inherit;
+}
+/* BUTTON CIRCLE WITH HOVER ANIMATION END */
+
+.completed-cases .single-cases-img .single-cases-cap {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.completed-cases .single-cases-img .single-cases-cap {
+  padding: 35% 19px 37px 30px !important;
+}
+
+.single-cases-img:hover .single-cases-cap {
+  width: 100% !important;
+  height: 100%;
+  cursor: pointer;
+}
+
+/*.single-cases-img img {
+  --c: #e87722; 
+  --b: 5px;    
+  --g: 5px;
+  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .3s, background-position .3s .3s;
+  cursor: pointer;
+}*/
+
+.single-cases-img img:hover {
+  --_i: 100%;
+  transition: .3s, background-size .3s .3s;
+}
+
+/*.single-cases-img:hover .single-cases-cap {
+  left: 10px !important;
+  bottom: 10px !important;
+}*/
+
+.border-full-yellow {
+  border: 6px solid #e87722 !important;
+}
+
+.text-career {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 81px;
+  color: #e87722;
+}
+
+.recent-area.test-kit .single-recent-cap .recent-img img {
+  height: 350px;
+  object-fit: fill;
+}
+
+.recent-area.alat-uji .single-recent-cap .recent-img {
+  background-repeat: no-repeat;
+  height: 350px;
+  background-image: url(https://media.istockphoto.com/id/1193046540/vector/photo-coming-soon-image-icon-vector-illustration-isolated-on-white-background-no-website.jpg?b=1&s=170667a&w=0&k=20&c=9GbZPb4CAUaCiARurPUIgGwb700NXtj2spCXUGeE2kM=);
+  background-color: #ccc;
+  background-size: cover;
+}
+
+
+.recent-area.alat-uji .single-recent-cap .recent-cap h4 a {
+  font-size: 16px;
+}
+
+#call_back_form input.error {
+  border: 2px solid #dc3545;
+}
+
+.text-center-image {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.sp-mb-50 {
+  margin: 40px 0;
+}
+
+/* #contentku {
+  overflow: hidden;
+}
+
+#contentku div {
+  float: left;
+  width: 25%;
+  position: relative;
+  padding: 1px;
+  min-height: 100px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#contentku .customer_logo {
+  max-width: 30%;
+  display: block;
+  position: absolute;
+  max-height: 100px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+} */
+
+.generic-blockquote.transparent {
+  background: transparent;
+  border-left: transparent;
+}
+
+.img-logo-sni {
+  width: 70%;
+  cursor: pointer;
+}
+
+.footer-area .ordered-list {
+  margin-left: -25px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.footer-area .ordered-list li {
+  line-height: 1em !important;
+  list-style-type: none;
+}
+
+.background-yellow {
+  background: #e87722;
+  color: #fff;
+}
+
+.form-control.error {
+  border: 1px solid #dc3545 !important;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.main-header .main-menu ul li.active a {
+  color: #e87722 !important;
+}
+
+.main-header .main-menu ul ul.submenu>li>a {
+  color: #0b1c39 !important;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.completed-actived .single-cases-img:hover .single-cases-cap {
+  visibility: hidden;
+}
+
+.completed-actived.owl-carousel .owl-item img {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.team-profile .single-profile .single-profile-front .profile-img img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.footer-logo img {
+  width: 200px;
+}
+
+.text-visi {
+  /*font-style: italic;*/
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 51px;
+  color: #D5AD6D; /*if no support for background-clip*/
+  background: -webkit-linear-gradient(transparent, transparent),
+  -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right-yellow {
+  border-right: 6px solid #e87722;
+}
+
+label.error {
+  font-size: 12px !important;
+  color: #dc3545;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.nice-select {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+  width: auto; }
+  .nice-select:hover {
+    border-color: #dbdbdb; }
+  .nice-select:active, .nice-select.open, .nice-select:focus {
+    border-color: #999; }
+  .nice-select:after {
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+        -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px; }
+  .nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
+  .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0); }
+  .nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none; }
+    .nice-select.disabled:after {
+      border-color: #cccccc; }
+  .nice-select.right {
+    float: right; }
+    .nice-select.right .list {
+      left: auto;
+      right: 0; }
+  .nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px; }
+    .nice-select.small:after {
+      height: 4px;
+      width: 4px; }
+    .nice-select.small .option {
+      line-height: 34px;
+      min-height: 34px; }
+  .nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+        -ms-transform: scale(0.75) translateY(-21px);
+            transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9; }
+    .nice-select .list:hover .option:not(:hover) {
+      background-color: transparent !important; }
+  .nice-select .option {
+    color: #002d5b;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+      background-color: #f6f6f6; }
+    .nice-select .option.selected {
+      font-weight: bold; }
+    .nice-select .option.disabled {
+      background-color: transparent;
+      color: #999;
+      cursor: default; }
+
+.no-csspointerevents .nice-select .list {
+  display: none; }
+
+.no-csspointerevents .nice-select.open .list {
+  display: block; }

@@ -1,0 +1,212 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    width: 125px;
+  }
+
+  #customers_gue.thumbnails {
+    margin-top: 0px;
+  }
+
+  .slicknav_btn {
+    margin: -45px 5px 6px;
+  }
+
+  .owl-carousel .owl-nav div.owl-next {
+    right: 0;
+  }
+
+  #customers_gue.thumbnails li {
+    width: 90%;
+  }
+
+  .completed-cases .single-cases-info {
+    left: 2%;
+  }
+
+  .img-logo-sni {
+    width: 60%;
+  }
+
+  .section-tittle h2 {
+    font-size: 51px;
+  }
+
+  .request-back-area .request-content h3 {
+    font-size: 35px;
+  }
+
+  .slider-area .hero__caption h1 {
+    font-size: 41px;
+  }
+
+  .completed-cases .single-cases-info h3 {
+    font-size: 35px;
+  }
+
+  .slider-height {
+    background-position: center right;
+  }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .owl-carousel .owl-nav div.owl-next {
+    right: 0px;
+  }
+
+  #customers_gue.thumbnails {
+    margin-top: 20px;
+  }
+
+  #customers_gue.thumbnails li {
+    width: 95%;
+  }
+
+  .overlay {
+    height: 260px;
+  }
+
+  #customers_ku.thumbnails li {
+    margin: 10px 10px 10px;
+    width: 44%;
+  }
+
+  .ordered-list {
+    margin-left: 5px;
+  }
+
+  .contact-title {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .center {
+    text-align: -webkit-center;
+  }
+
+  .btn-more {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+  }
+
+  .text-career {
+    font-size: 31px;
+    line-height: 41px;
+  }
+
+  .contact-section h6 {
+    line-height: 1.8em;
+  }
+
+  .not_found img {
+    width: 50%;
+  }
+
+  .not_found h4 {
+    font-size: 15px;
+  }
+
+  .sp-mb-50 {
+    margin-bottom: 70px;
+  }
+
+  .customer_logo {
+    width: 48%;
+  }
+
+  .img-logo-sni {
+    width: 25%;
+  }
+
+  .slider-area .hero__caption h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .slider-area .hero__caption p {
+    font-size: 21px;
+  }
+
+  .team-profile .single-profile .single-profile-back-last h2 {
+    font-size: 24px;
+  }
+
+  .team-profile .single-profile .single-profile-front .profile-caption h4 a {
+    font-size: 24px;
+  }
+
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #002d5b;
+  }
+
+  .header-area .header-bottom {
+    padding: 15px 20px;
+  }
+
+  .slicknav_nav .slicknav_row, .slicknav_nav a {
+    padding: 5px 20px;
+  }
+
+  .footer-bottom-area .footer-copy-right p {
+    font-size: 11px;
+  }
+
+  .logo img {
+    width: 35%;
+  }
+
+	.slicknav_btn {
+		margin: -48px 5px 6px;
+	}
+ 	
+ 	.generic-blockquote {
+    padding: 30px 25px 30px 0px;
+  }
+
+  .floating-wpp-button {
+  	width: 50px !important;
+    height: 50px !important;
+  }
+
+  .slider-area .hero-cap h2 {
+    font-size: 25px;
+  }
+
+  .services-details .s-details-caption h2 {
+    font-size: 21px;
+  }
+
+  .text-visi {
+    font-size: 33px;
+    line-height: 31px;
+  }
+
+  .request-back-area .request-content h3 {
+    font-size: 30px;
+  }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

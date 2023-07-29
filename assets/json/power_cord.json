@@ -1,0 +1,73 @@
+
+[
+  {
+      "id": "1",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-003",
+      "slug": "2-pin-euro-plug-m-003",
+      "images": "",
+      "nominal_voltage": "2.5 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVH2-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VVH2-F 2x0.75 mm² 300/500 V",
+      "": ""
+  },
+  {
+      "id": "2",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-001",
+      "slug": "2-pin-euro-plug-m-001",
+      "images": "",
+      "nominal_voltage": "2.5 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVH2-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VVH2-F 2x0.75 mm² 300/500 V;60227 IEC 52 / H03VV-F 2x0.5 mm² 300/300 V",
+      "": ""
+  },
+  {
+      "id": "3",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-008",
+      "slug": "2-pin-euro-plug-m-008",
+      "images": "",
+      "nominal_voltage": "2.5 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVVH2-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H03VVVH2-F 2x0.75 mm² 300/500 V",
+      "": null
+  },
+  {
+      "id": "4",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-002",
+      "slug": "2-pin-euro-plug-m-002",
+      "images": "",
+      "nominal_voltage": "16 A || 250 V~",
+      "available_types": "60227 IEC 53 / H05VVH2-F 2x0.75 mm² 300/500 V;60227 IEC 52 / H03VV-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VV-F 2x0.75 mm² 300/500 V",
+      "": ""
+  },
+  {
+      "id": "5",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-004",
+      "slug": "2-pin-euro-plug-m-004",
+      "images": "",
+      "nominal_voltage": "16 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVH2-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VVH2-F 2x0.75 mm² 300/500 V;60227 IEC 52 / H03VV-F 2x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VV-F 2x0.75 mm² 300/500 V;60245 IEC 66 / H07RN-F 2x1.0 mm² 450/750 V",
+      "": ""
+  },
+  {
+      "id": "6",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-006A",
+      "slug": "2-pin-euro-plug-m-006a",
+      "images": "",
+      "nominal_voltage": "16 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVH2-F 3x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VV-F 3x0.75 - 1.00 mm² 300/500 V;60227 IEC 53 / H05RR-F 3x0.75 - 1.00 mm² 300/500 V;60227 IEC 57 / H05RN-F 3x0.75 - 1.00 mm² 300/500 V;60245 IEC 66 / H07RN-F 3x1.0 mm² 450/750 V",
+      "": ""
+  },
+  {
+      "id": "7",
+      "jenis": "Power Cord",
+      "nama_produk": "2 Pin Euro Plug M-005",
+      "slug": "2-pin-euro-plug-m-005",
+      "images": "",
+      "nominal_voltage": "16 A || 250 V~",
+      "available_types": "60227 IEC 52 / H03VVH2-F 3x0.5 - 0.75 mm² 300/300 V;60227 IEC 53 / H05VV-F 3x0.75 - 1.00 mm² 300/500 V;60245 IEC 53 / H05RR-F 3x0.75 mm² 300/500 V;60245 IEC 57 / H05RN-F 3x0.75 - 1.00 mm² 300/500 V;60245 IEC 66 / H07RN-F 3x1.00 mm² 450/750 V;60245 IEC 89 / H03RT-H 3x0.75 mm² 300/300 V;60227 IEC 53 / H05VV-F 3x1.50 mm² 300/500 V",
+      "": ""
+  }
+]
